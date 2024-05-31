@@ -1,0 +1,213 @@
+/* Default code Starts here */
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #edeeeb;
+
+  /* font-family: "Rajdhani", sans-serif; */
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+:root {
+  --primaryColor: #032c48;
+  --secondaryColor: #ef8bae;
+  --tertiaryColor: #0b81d1;
+  --textDarkColor: #000000;
+  --textLightColor: #efefef;
+  --lightColor: #ffffff;
+  --regularFont: 16px;
+  --headingFont: 54px;
+  --sebHeadingFont: 18px;
+  --paragraph: 16px;
+  --links-Buttons-Font: 16px;
+  --fontFamilyPrimary: "Rajdhani", sans-serif;
+  --fontFamilySecondary: "Merienda", cursive;
+}
+
+.align {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 3rem;
+}
+
+/* Default code Ends here */
+
+/* :::project code starts here */
+header {
+  /* background-color: #d5a1ff; */
+  width: 100%;
+  height: auto;
+}
+.formContainer {
+  background-color: #44c3e4;
+  width: 70%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px;
+  margin: 2% 1%;
+}
+.registerationForm {
+  /* background-color: #ca8114; */
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 190px 20px;
+}
+/* Left container code starts */
+.formImage {
+  position: absolute;
+  padding: 290px 183px;
+  margin-left: -710px;
+  background-color: #00a650;
+  background-image: url(./assests/pgImg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+p {
+  color: #fefefc;
+  position: absolute;
+  top: 10%;
+  left: 55px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.5;
+}
+/* Right container code starts here */
+.formInfo {
+  position: absolute;
+  display: flex;
+  left: 24%;
+  padding: 81px 2px;
+  background-color: white;
+}
+
+h3 {
+  width: 40%;
+  color: #000000;
+  margin-top: -5%;
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.formGroup {
+  padding: 20px 60px 20px 10px;
+  margin-left: -40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.formGroup label {
+  width: 40%;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.formGroup select {
+  width: 90%;
+  border: none;
+  border-bottom: 2px solid #696969;
+  margin-bottom: 5px;
+  font-size: 16px;
+  margin-right: 370px;
+}
+
+.formGroup .optional {
+  width: 75%;
+  border: none;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.formGroup .check {
+  margin-left: 200px;
+}
+
+.formGroup .subCaste {
+  width: 85%;
+  border: none;
+  border-bottom: 2px solid #696969;
+  margin-bottom: 5px;
+  font-size: 16px;
+  margin-right: 45px;
+}
+.formGroup .gothram {
+  width: 85%;
+  border: none;
+  border-bottom: 2px solid #696969;
+  margin-bottom: 5px;
+  font-size: 16px;
+  margin-right: 45px;
+}
+
+.formGroup1 {
+  padding: 20px 60px 20px 10px;
+  margin-left: -40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formGroup1 label {
+  width: 40%;
+  padding: 5px;
+  border: none;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.formGroup1 input {
+  width: 35%;
+
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.formGroup1 .dosham1 {
+  width: 5%;
+  margin-left: -16%;
+  border: 2px solid #696969;
+  margin-right: 10px;
+}
+.formGroup1 .dosham2 {
+  width: 5%;
+  border: 2px solid #696969;
+  margin-right: 10px;
+}
+.formGroup1 .dosham3 {
+  width: 20%;
+  border: 2px solid #696969;
+  margin-right: 10px;
+}
+.formGroup1 .optional {
+  margin-left: 130px;
+  border: none;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.formInfo button {
+  padding: 15px 80px 15px 80px;
+  margin-left: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ff7c0a;
+  border: none;
+  border-radius: 8px;
+}
